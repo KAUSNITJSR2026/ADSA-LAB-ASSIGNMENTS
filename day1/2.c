@@ -88,7 +88,7 @@ int evaluateExpression(char *exp){
 int main(){
     char expr[max];
     printf("Enter expression: ");
-    scanf("%s", expr);   // no spaces allowed
+    scanf("%s", expr);   
     int result = evaluateExpression(expr);
     printf("Result = %d\n", result);
     return 0;
