@@ -6,7 +6,7 @@ For example: At Linux command prompt,
  $ (23 – 8) *3+ 28/4 
  followed by Enter key displays 
  52 $ */
-#include <stdio.h>
+#include <stdio.h>    
 #include <ctype.h>
 #define max 100
 int numberStack[max], numTop = -1;
